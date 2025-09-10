@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Xadrez para Iniciantes</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Xadrez para Iniciantes</h1>
+    <p>Treine seus movimentos e aprenda as regras do xadrez</p>
+  </header>
+
+  <main class="container">
+    <section class="board-container">
+      <div id="board" class="board"></div>
+      <div class="status">
+        <p id="turn">Vez das Brancas</p>
+        <button id="reset">Reiniciar</button>
+      </div>
+    </section>
+
+    <aside class="rules-card">
+      <h2>📖 Regras Básicas</h2>
+      <ul>
+        <li>♟ Peão: anda para frente, captura na diagonal. Promoção na última fileira.</li>
+        <li>♜ Torre: anda em linha reta (horizontal e vertical).</li>
+        <li>♞ Cavalo: movimento em L (2+1).</li>
+        <li>♝ Bispo: anda pelas diagonais.</li>
+        <li>♛ Dama: combina torre + bispo.</li>
+        <li>♚ Rei: uma casa em qualquer direção.</li>
+        <li>♔ Roque: rei + torre em um movimento especial.</li>
+      </ul>
+    </aside>
+  </main>
+
+  <footer>
+    <p>♟ Projeto criado para estudo — Dani Souza | Portfólio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
