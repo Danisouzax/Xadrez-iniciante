@@ -51,6 +51,6 @@ O objetivo é oferecer um ambiente amigável para quem está aprendendo, com reg
 
 ### 1. Clone este repositório
 ```bash
-git clone [https://github.com/SEU_USUARIO/Projeto-Xadrez.git](https://github.com/Danisouzax/Xadrez-iniciante.git)
+git clone https://github.com/Danisouzax/Xadrez-iniciante.git
 
 
